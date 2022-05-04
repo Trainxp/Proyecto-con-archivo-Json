@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEXUS</title>
+
+    <meta name="description" content="seccion de productos, donde vas a poder ver nuestro amplio catalogo en hardware e insumos de informatica" >
+    <meta name="keywords" content="tienda online, hardware, envios, PC gamer, productos, ML, insumos,mother ,procesardor ,placas de video, sonido, teclados " >
+    <script src="https://kit.fontawesome.com/df59baf6b8.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script defer src="stock.js"></script>
+    <script defer src="modal.js"></script>
+    <!-- <script defer src="app.js"></script> -->
+</head>
+<body>
+    <header>
+        <h1 id="titulo" class="titulo">NEXUS</h1>
+        <h2>Tu tienda de Informatica</h2>
+        <h5>Av. Corrientes 860, CABA</h5>
+        <button id="boton-carrito"><i class="fas fa-shopping-cart"></i><span id="contadorCarrito">0</span></button>
+    </header>
+
+   
+   <h2>Catalogo</h2>
+
+   <HR></HR>
+
+
+    <main id="contenedor-productos">
+
+    </main>
+
+    <div class="modal-contenedor">
+        <div class="modal-carrito">
+            <h3>Carrito</h3>
+            <button id="carritoCerrar"><i class="fas fa-times-circle"></i></button>
+            <div id="carrito-contenedor">
+                <!-- <div class="productoEnCarrito">
+                    <p>Buzo 1</p>
+                    <p>Precio: $1200</p>
+                    <button class="boton-eliminar"><i class="fas fa-trash-alt"></i></button>
+                </div> -->
+            </div>
+            <p class="precioProducto">Precio total: $<span id="precioTotal">0</span></p>
+            <button id="vaciar-carrito" class="boton-agregar">Vaciar carrito</button>
+            <button id="vaciar-carrito2" class="boton-agregar2">Comprar</button>
+        </div>
+    </div>
+    
+    
+    
+    
+    <footer >
+
+        <p class="letraFooter" >Redes sociales</p>
+        <div><span class="letraFooter2"  >facebook</span> <a href="www.facebook.com"><img  src="img/facebook-logo-0.png  " alt="imagen de facebook"> </a>  </div>  
+        
+        <div><span class="letraFooter2" >instagram</span> <a href="www.instagram.com">  <img  src="img/icons8-instagram-48.png"   alt="imagen de instagram">           </a>     </div>
+
+
+        <p>todos los derechos reservados®</p>
+    </footer>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="app.js"></script>
+</body>
+</html>
